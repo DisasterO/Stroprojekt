@@ -124,7 +124,8 @@
                     Console.Clear();
                     break;
                 case 2:
-                    Console.Write("Here you can simulate how races will play out");
+                    Console.WriteLine("Here you can simulate how races will play out");
+                    Console.WriteLine("Press enter key to start the fun!");
                     Console.ReadLine();
                     DisplayAvailableDogs(); // Displaying the available dogs
                     Console.Write("Chose One of the avilbale dogs here (OBS! wirte the dogs number): ");
